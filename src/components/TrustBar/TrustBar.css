@@ -1,0 +1,70 @@
+.trust-bar {
+  padding: 56px 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.trust-heading {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.trust-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.trust-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trust-logo span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #B0B8C9;
+  letter-spacing: -0.02em;
+}
+
+.trust-note {
+  text-align: center;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.trust-disclaimer {
+  text-align: center;
+  font-size: 12px;
+  color: #A0AAB8;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .trust-logos {
+    gap: 28px;
+  }
+  .trust-logo span {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .trust-logos {
+    gap: 20px;
+  }
+  .trust-logo span {
+    font-size: 15px;
+  }
+}
